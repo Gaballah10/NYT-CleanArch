@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NYT Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news">News</string>
+    <string name="stored">Stored</string>
+    <string name="Articles">Articles</string>
+    <string name="Stored">Stored</string>
+    <string name="search">Search All ...</string>
+    <string name="time">2022-01-14T23:00:00Z</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="title_dummy">The Roads To Hyperbitcoinization: Describing The ‘Transition Agents’ Bringing Us Financial Freedom</string>
+
+
+    <string name="home">Home</string>
+    <string name="nyt">NYT</string>
+    <string name="search_text">Search</string>
+    <string name="popular">Popular</string>
+    <string name="most_viewed">Most Viewed</string>
+    <string name="most_shared">Most Shared</string>
+    <string name="most_emailed">Most Emailed</string>
+    <string name="articles">Articles</string>
+    <string name="sorry_no_data_exist">Sorry No Data Exist ....</string>
+
+
+</resources>

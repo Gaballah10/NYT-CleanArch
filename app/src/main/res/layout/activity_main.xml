@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/root_lt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/brown_design"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/nyt"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/ernestine_font"
+                android:text="Search "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/searchTab"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableEnd="@drawable/arrow"
+                android:fontFamily="@font/ernestine_font"
+                android:text="@string/search_text"
+                android:textAlignment="textStart"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ernestine_font"
+                android:text="@string/popular"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/mostViewedTab"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableEnd="@drawable/arrow"
+                android:fontFamily="@font/ernestine_font"
+                android:text="@string/most_viewed"
+                android:textAlignment="textStart"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/mostSharedTab"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableEnd="@drawable/arrow"
+                android:fontFamily="@font/ernestine_font"
+                android:text="@string/most_shared"
+                android:textAlignment="textStart"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/mostEmailedTab"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableEnd="@drawable/arrow"
+                android:fontFamily="@font/ernestine_font"
+                android:text="@string/most_emailed"
+                android:textAlignment="textStart"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
